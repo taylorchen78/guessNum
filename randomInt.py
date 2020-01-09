@@ -1,6 +1,11 @@
 import random
 
-num = random.randint(1, 100)
+start = input("Please choose start num: ")
+end = input("Please choose end num: ")
+start = int(start)
+end = int(end)
+
+num = random.randint(start, end)
 bIsGuessRight = False
 guessCount = 0
 
